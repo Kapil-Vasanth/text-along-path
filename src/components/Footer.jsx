@@ -24,7 +24,7 @@ export default function Footer() {
                 <text className="text-[6px] uppercase" style={{fill: "red"}}>
                     {
                         [...Array(3)].map((_, i) => {
-                            return <textPath key={i} ref={ref => paths.current[i] = ref} startOffset={i * 40 + "%"} href="#curve">Curabitur mattis efficitur velit</textPath>
+                            return <textPath key={i} ref={ref => paths.current[i] = ref} startOffset={i * 40 + "%"} href="#curve">I AM Really SORRY ! Forgive Me</textPath>
                         })
                     }
                 </text>
@@ -40,8 +40,11 @@ const Logos = ({scrollProgress}) => {
         <div className="h-[250px] bg-black overflow-hidden">
             <motion.div style={{y}} className="h-full bg-black flex justify-center gap-10 items-center p-10">
                 {
-                    [...Array(5)].map((_, i) => {
-                        return <img key={`img_${i}`} className="w-[80px] h-[80px]" src={`/medias/${i+1}.jpg`} />
+                    // [...Array(5)].map((_, i) => {
+                    //     return <img key={`img_${i}`} className="w-[80px] h-[80px]" src={`/medias/${i+1}.jpg`} />
+                    // })
+                    ['p','o','o','c','h','a'].map((v, i) => {
+                        return <h4 className="text-white text-4xl">{v}</h4>
                     })
                 } 
             </motion.div>
