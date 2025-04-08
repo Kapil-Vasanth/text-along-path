@@ -44,7 +44,7 @@ const Logos = ({scrollProgress}) => {
                     //     return <img key={`img_${i}`} className="w-[80px] h-[80px]" src={`/medias/${i+1}.jpg`} />
                     // })
                     ['p','o','o','c','h','a'].map((v, i) => {
-                        return <h4 className="text-white text-4xl">{v}</h4>
+                        return <h4 key={v} className="text-white text-4xl">{v}</h4>
                     })
                 } 
             </motion.div>
