@@ -151,6 +151,7 @@ export default function Home() {
                 </div>
                 <div className={styles.title}>
                 <h1 className="text-8xl text-white">P O O C H A</h1>
+                <p className='text-white tracking-widest'>Wish you the best</p>
                 </div>
             </main>
 
