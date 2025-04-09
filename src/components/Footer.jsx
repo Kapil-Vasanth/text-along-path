@@ -30,7 +30,7 @@ export default function Footer() {
                 </text>
             </svg>
                 <div className="absolute -top-10 left-0 w-full h-full flex justify-center items-center">
-                    <img width={400} src="./medias/cat.png" alt="" />
+                    <img className=" sm:w-[200px] md:w-[400px]" src="./medias/cat.png" alt="" />
                 </div>
             <Logos scrollProgress={scrollYProgress}/>
         </div>
