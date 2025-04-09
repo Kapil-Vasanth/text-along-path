@@ -54,7 +54,7 @@ export default function Home() {
             
             <div className="h-fit ">
                 <div className="h-full w-full bg-white  justify-center items-center">
-                    <h1 className="text-8xl text-black">Happy Birthday</h1>
+                    <h1 className="text-8xl text-black text-clip text-center pt-[200px]">S__Ry</h1>
                 <Projects />
                 </div>
             </div>
