@@ -89,8 +89,9 @@ export default function Home() {
                 {isLoading && <Preloader />}
             </AnimatePresence>
             <div className="h-[100vh]">
-                <div className="h-full bg-black flex justify-center items-center">
+                <div className="h-full bg-black flex justify-center items-center flex-col gap-2">
                     <h1 className="text-8xl text-white">Scroll</h1>
+                    <p className='text-md text-gray-300 '>Optimized for Desktop</p>
                 </div>
             </div>
             <div className="h-[100vh]">
@@ -162,8 +163,9 @@ export default function Home() {
             </div>
 
             <div className="h-[100vh]">
-                <div className="h-full bg-black flex justify-center items-center">
+                <div className="h-full bg-black flex flex-col justify-center items-center">
                     <h1 className="text-8xl text-white">P O O C H A</h1>
+                    <p className='text-gray-700'>I ___ You</p>
                 </div>
             </div>
 
